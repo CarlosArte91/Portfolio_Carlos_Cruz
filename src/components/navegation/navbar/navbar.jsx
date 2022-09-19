@@ -1,4 +1,4 @@
-import logo from '../../../assets/images/contact/logo.png';
+import logo from '../../../assets/images/brand/icon.png';
 import styles from './navbar.module.css';
 
 function Navbar() {
