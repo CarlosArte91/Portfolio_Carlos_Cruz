@@ -1,11 +1,14 @@
+import logo from '../../../assets/images/contact/logo.png';
+import styles from './navbar.module.css';
 
 function Navbar() {
     return (
-        <div>
+        <div className={styles.container}>
+            <img src={logo} alt="logo" />
             <ul>
-                <li>Proyectos</li>
-                <li>Habilidades</li>
-                <li>Contacto</li>
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Habilidades</a></li>
+                <li><a href="#">Contacto</a></li>
             </ul>
         </div>
     );

@@ -1,0 +1,47 @@
+.container {
+    background-color: #06060f;
+    height: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.container ul {
+    margin: 0;
+    padding: 0;
+    width: 35%;
+}
+
+.container ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0% 7%;
+    position: relative;
+}
+
+.container ul li a {
+    text-decoration: none;
+    color: #e3d2ea;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3vw;
+}
+
+.container ul li::before {
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: #a6a1df;
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    transition: 0.4s ease-out;
+}
+
+.container ul li:hover::before {
+    width: 100%;
+}
+
+.container img {
+    width: 5vw;
+}

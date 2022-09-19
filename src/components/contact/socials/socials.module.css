@@ -1,0 +1,19 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container ul {
+    padding: 0;
+}
+
+.container ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 2vw;
+}
+
+.container img {
+    width: 5vw;
+}
