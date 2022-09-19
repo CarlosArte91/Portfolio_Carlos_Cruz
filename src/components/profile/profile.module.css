@@ -2,7 +2,6 @@
     color: #e3d2ea;
     margin: 0%;
     padding: 12% 13%;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: grid;
     background-color: #2c304b;
     grid-template-columns: repeat(2, 1fr);
