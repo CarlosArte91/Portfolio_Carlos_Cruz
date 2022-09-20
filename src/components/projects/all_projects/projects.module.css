@@ -1,0 +1,14 @@
+.container {
+    scroll-margin-top: 8ex;
+    background-color: #121129;
+    padding: 5% 6%;
+}
+
+.title {
+    margin: 0;
+    font-size: 3vw;
+}
+
+.container h2 {
+    text-align: center;
+}

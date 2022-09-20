@@ -25,8 +25,7 @@
 
 .container ul li a {
     text-decoration: none;
-    color: #e3d2ea;
-    font-size: 1.3vw;
+    font-size: 1.4vw;
 }
 
 .container ul li::before {
@@ -48,3 +47,7 @@
     width: 13vw;
     margin-left: 8%;
 }
+
+/* html {
+    scroll-behavior: smooth;
+} */

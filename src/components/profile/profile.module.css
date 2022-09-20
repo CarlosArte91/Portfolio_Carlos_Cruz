@@ -1,5 +1,4 @@
-.container {    
-    color: #e3d2ea;
+.container {
     margin: 0%;
     padding: 12% 13%;
     display: grid;
@@ -7,6 +6,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 18%) auto;
     justify-items: center;
+    /* scroll-margin-top: 10ex; */
 }
 
 .profileImage {

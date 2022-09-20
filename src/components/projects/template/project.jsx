@@ -1,19 +1,24 @@
 import ReactPlayer from 'react-player';
+import styles from './project.module.css';
 
 function Project({ name, description, video, deploy, github }) {
     return (
-        <>
-            <h2>{name}</h2>
+        <div className={styles.container}>
+            <h3>{name}</h3>
             <p>{description}</p>
-            <div>
-                <a href="">deploy</a>
-                <a href="">repositorio</a>
+            <div className={styles.links}>
+                <a href={deploy} target="_blank">deploy</a>
+                <a href={github} target="_blank">repositorio</a>
             </div>
-            <ReactPlayer
-                url={video}
-                controls
-            />
-        </>
+            <div className={styles.video}>
+                <ReactPlayer
+                    url={video}
+                    controls
+                    width="100%"                    
+                    height="100%"
+                />
+            </div>
+        </div>
     );
 };
 

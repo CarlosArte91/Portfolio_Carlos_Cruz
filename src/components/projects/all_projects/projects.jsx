@@ -1,10 +1,11 @@
 import projects from "../../../assets/data/projects.js";
 import Project from "../template/project";
+import styles from "./projects.module.css";
 
 function Projects() {
-    console.log(projects);
     return (
-        <div>
+        <div className={styles.container} id="projects">
+            <h2 className={styles.title}>Proyectos</h2>
             {
                 projects.length && projects.map((project) => {
                     return (

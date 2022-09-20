@@ -2,9 +2,9 @@ const projects = [
     {
         name: "Ecom",
         description: "Es una aplicación web tipo e-commerce creada como proyecto grupal para el bootcamp de Henry, a través de la cual se comercializarán productos tecnológicos.",
-        video: "https://www.youtube.com/watch?v=kJsyAdMu1uQ",
-        deploy: "",
-        github: ""
+        video: "https://www.youtube.com/watch?v=AIOom-sO8UU",
+        deploy: "https://client-ecom-07-henry.netlify.app/",
+        github: "https://github.com/CarlosArte91/Ecom/tree/developer"
     },
     {
         name: "Foods",
