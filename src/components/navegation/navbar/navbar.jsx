@@ -4,10 +4,11 @@ import styles from './navbar.module.css';
 function Navbar() {
     return (
         <div className={styles.container}>
-            <img src={logo} alt="logo" />
+            <a href="#home"><img src={logo} alt="logo" /></a>            
             <ul>
+                <li><a href="#home">Inicio</a></li>
                 <li><a href="#projects">Proyectos</a></li>
-                <li><a href="#">Habilidades</a></li>
+                <li><a href="#skills">Habilidades</a></li>
                 <li><a href="#">Contacto</a></li>
             </ul>
         </div>

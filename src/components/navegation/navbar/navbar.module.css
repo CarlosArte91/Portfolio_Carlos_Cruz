@@ -11,15 +11,15 @@
 
 .container ul {
     margin: 0;
-    margin-right: 8%;
+    margin-right: 4%;
     padding: 0;
-    width: 35%;
+    width: 40%;
 }
 
 .container ul li {
     list-style: none;
     display: inline-block;
-    margin: 0% 7%;
+    margin: 0% 5%;
     position: relative;
 }
 
@@ -45,9 +45,5 @@
 
 .container img {
     width: 13vw;
-    margin-left: 8%;
+    margin-left: 38%;
 }
-
-/* html {
-    scroll-behavior: smooth;
-} */

@@ -6,7 +6,7 @@ import styles from './profile.module.css';
 
 function Profile() {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="home">
             <h1 className={styles.name}>Carlos Cruz</h1>
             <h2 className={styles.profession}>Full Stack Web Developer</h2>            
             <p className={styles.aboutme}>{aboutMe}</p>

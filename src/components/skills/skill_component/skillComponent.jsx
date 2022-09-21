@@ -3,7 +3,7 @@ import styles from './skillComponent.module.css';
 
 function SkillComponent() {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="skills">
             <TechSkills/>
         </div>
     );

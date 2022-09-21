@@ -1,6 +1,8 @@
 .container {
     display: grid;
     place-items: center;
+    padding-top: 8%;
+    padding-bottom: 5%;
 }
 
 .container img {
