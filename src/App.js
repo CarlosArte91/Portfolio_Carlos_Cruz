@@ -1,6 +1,7 @@
 import Navbar from './components/navegation/navbar/navbar';
 import Profile from './components/profile/profile';
 import Projects from './components/projects/all_projects/projects';
+import SkillComponent from './components/skills/skill_component/skillComponent';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar/>
       <Profile/>
       <Projects/>
+      <SkillComponent/>
     </>
   );
 }
