@@ -1,0 +1,26 @@
+
+.container {
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 4% 3% 10% 3%;
+    border-radius: 5px;
+    column-gap: 2%;
+    row-gap: 10%;
+    justify-items: center;
+}
+
+.title {
+    margin: 0;
+    font-size: 3vw;
+    margin-top: 8%;
+    margin-bottom: 2%;
+}
+
+.learn {
+    margin: 2% 1% 5% 1%;
+    text-align: justify;
+    font-size: 1.6vw;
+}

@@ -6,7 +6,6 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 18%) auto;
     justify-items: center;
-    /* scroll-margin-top: 10ex; */
 }
 
 .profileImage {

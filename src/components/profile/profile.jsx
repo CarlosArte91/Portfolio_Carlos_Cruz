@@ -1,4 +1,4 @@
-import aboutMe from '../../assets/data/aboutMe.js';
+import { aboutMe } from '../../assets/data/aboutMe.js';
 
 import profileImage from '../../assets/images/profile/profile.JPG';
 import Socials from '../contact/socials/socials';
