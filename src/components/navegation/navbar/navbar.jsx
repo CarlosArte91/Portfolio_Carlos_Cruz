@@ -9,7 +9,7 @@ function Navbar() {
                 <li><a href="#home">Inicio</a></li>
                 <li><a href="#projects">Proyectos</a></li>
                 <li><a href="#skills">Habilidades</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#contact">Contacto</a></li>
             </ul>
         </div>
     );
