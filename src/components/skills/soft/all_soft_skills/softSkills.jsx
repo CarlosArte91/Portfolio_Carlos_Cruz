@@ -15,6 +15,7 @@ function SoftSkills() {
                             <SoftSkill
                                 name={skill.name}
                                 image={skill.image}
+                                key={skill.name}
                             />
                         );
                     })

@@ -13,6 +13,7 @@ function TechSkills() {
                             <TechSkill
                                 name={skill.name}
                                 image={skill.image}
+                                key={skill.name}
                             />
                         );
                     })
