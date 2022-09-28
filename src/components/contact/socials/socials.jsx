@@ -18,7 +18,7 @@ function Socials() {
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.github.com/CarlosArte91" target="_blank">
+                    <a href="https://twitter.com/CarlosArteCruz" target="_blank">
                         <img src={twitter} alt="twitter" />
                     </a>
                 </li>

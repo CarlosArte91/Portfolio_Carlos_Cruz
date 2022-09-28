@@ -10,6 +10,8 @@ import postgres from "../images/tech/postgres.png";
 import git from "../images/tech/git.png";
 import github from "../images/tech/github.png";
 import jwt from "../images/tech/jwt.png";
+import java from "../images/tech/java.png";
+import tailwind from "../images/tech/tailwind.png";
 import docker from "../images/tech/docker.png";
 
 const techSkills = [
@@ -37,10 +39,10 @@ const techSkills = [
         name: "Json Web Token",
         image: jwt
     },
-    {
-        name: "Docker",
-        image: docker
-    },
+    // {
+    //     name: "Docker",
+    //     image: docker
+    // },
     {
         name: "HTML",
         image: html
@@ -48,6 +50,14 @@ const techSkills = [
     {
         name: "CSS",
         image: css
+    },
+    {
+        name: "Tailwind",
+        image: tailwind
+    },
+    {
+        name: "Java",
+        image: java
     },
     {
         name: "SQL",

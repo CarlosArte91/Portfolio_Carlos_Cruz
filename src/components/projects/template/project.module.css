@@ -1,14 +1,16 @@
 .container {
     margin-top: 5%;
     margin-bottom: 3%;
-    padding: 3%;
+    padding: 2% 1%;
     display: grid;
     grid-template-columns: 40% 1fr;
     grid-template-rows: 20% 1fr 27%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
 }
 
 .video {
-    width: 45vw;
+    width: 47vw;
     height: 28vw;
     grid-column-start: 2;
     grid-column-end: 3;
@@ -27,7 +29,6 @@
     font-size: 1.5vw;
     padding: 0% 10% 0% 10%;
     text-align:right;
-    border-left: 1px solid #e3d2ea;
 }
 
 .links {
@@ -38,8 +39,6 @@
     grid-row-end: 4;
     display: flex;
     justify-content: space-around;
-    border-bottom: 1px solid #e3d2ea;
-    border-left: 1px solid #e3d2ea;
     border-radius: 0% 0% 0% 5px;
 }
 
@@ -65,5 +64,4 @@
     margin: 0;
     padding: 3% 0% 0% 13%;
     font-size: 2.5vw;
-    border-left: 1px solid #e3d2ea;
 }
